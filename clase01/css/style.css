@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: yellow;
+}
+
+div{
+    border: solid red;
+}
+
+#personalizada{
+    background-color: blue;
+}
+
+.clase{
+    color: rgb(57, 125, 65);
+    font-size: 30px;
+}
+
+#x{
+    background-color: red;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+
+}
+
+#y{
+    width: 80%;
+    height: 200px;
+    background-color: blue;    
+
+}

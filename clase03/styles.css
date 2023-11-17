@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    display: inline-block;
+    width: 100px; 
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: solid red;
+    border: solid green;
+}
+
+#contenedor{
+    width: 700px;
+    height: 2500px;
+}
+
+#contenedorInt{
+    width: 500px;
+    height: 800px;
+}
+
+/* #dos{
+    background-color: yellow;
+    position: relative;
+    top: 50px;
+    left: 50px;
+} */
+
+/* #dos{
+    background-color: yellow;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+} */
+
+/* #dos{
+    background-color: yellow;
+    position: fixed;
+    top: 60px;
+    left: 60px;
+} */
+
+#dos{
+    background-color: yellow;
+    position: sticky;
+    top: 60px;
+    left: 60px;
+}
+
