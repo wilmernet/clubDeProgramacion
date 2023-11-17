@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    display: inline-block;
+    border: solid;
+    width: 100px;
+    height: 100px;
+}
+
+/* 100vh 758px  */
+#contenedor{
+    margin-top: 129px;
+    margin-left: 290px;
+    width: 700px;
+    height: 500px;
+    background-color: yellow;
+}
+
+.interno{    
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+#dos{    
+    background-color: green;
+    display: inline-block;
+    position: absolute;     
+    top: 170px;
+    left: 330px;
+    box-shadow: -10px -10px 30px black;
+}
+#uno{
+    background-color: red;
+    display: inline-block;    
+    box-shadow: -10px -10px 30px black;
+}
